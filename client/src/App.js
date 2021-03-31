@@ -107,8 +107,7 @@ const App = () => {
         <form onSubmit={addPoll}>
           <h2>Title for new poll</h2><br></br>
           <input value={title} onChange={handleTitleChange} placeholder="Title.."></input>
-          <h2 id="formi-otsikot">Options</h2>
-          <h3 id="formi-otikot">Vaihtoehdot:</h3>
+          <h2 id="formi-otsikot">Options:</h2>
           <ul id="option-lista">
           {newOptions.map(((optionTitle, idx) => ( <li id="option-lista" key={idx}><b>{optionTitle}</b></li>)))}
           </ul><br />
