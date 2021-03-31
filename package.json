@@ -1,0 +1,19 @@
+{
+  "name": "react-node-appi",
+  "version": "1.0.0",
+  "description": "Poll app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tommi Haapa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#nappula {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  background-color: #2495f1;
+  border-radius: 25px 25px;
+  border: none;
+  text-decoration: none;
+  padding: 7px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #34f1d8, #f345ca);
+}
+
+#nappula:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.45));
+}
+
+#formi-nappula {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #2495f1;
+  border-radius: 25px 25px;
+  border: none;
+  text-decoration: none;
+  padding: 7px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #34f1d8, #f345ca);
+}
+
+#formi-nappula:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.45));  
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+#poll-tyyli {
+  border: 5px solid rgb(55, 40, 139);
+	border-radius: 15px;
+  background: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+  padding: 15px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#poll-lista {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+
+#kokonaisuus {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); 
+  padding: 10px; 
+  border-radius: 15px;
+  border: transparent;
+}
+
+#formi-otsikot {
+  color: white;
+}
+
+#option-lista {
+  color: white;
+  align-items: center;
+  display: list-item;
+  padding: unset;
+}
+
+::marker {
+  color: #282c34;
+}
