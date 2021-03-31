@@ -20,3 +20,5 @@ If you want to run server in development mode, type `npm run dev` in server dire
 ### Client side
 
 To start our React client, go `cd client` & `npm start`
+
+App is now live and up in [http://localhost:3000](http://localhost:3000)
